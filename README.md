@@ -12,5 +12,5 @@
 - Opción default (error): Manuel
 
 ## Problemas encontrados
-- Conflictos al hacer merge en Main.java
-- Dudas sobre ramas y commits
+- Problemas a la hora de hacer el merge de nuestra rama
+- Problemas a la hora de editar desde el main en lugar de nuestra rama
