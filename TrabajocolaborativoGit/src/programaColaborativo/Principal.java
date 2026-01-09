@@ -8,7 +8,7 @@ public class Principal {
 		// TODO Auto-generated method stub
 
 		int opcion;
-		double num1, num2, result;//Manuel
+		double num1, num2, result;
 		
 		System.out.println("Bienvenido, trabajo de Germán Díaz y Manuel Martínez\n");
 		
@@ -32,6 +32,7 @@ public class Principal {
 				result=num1+num2;
 				
 				System.out.printf("%f + %f = %f \n", num1, num2, result);
+				break;
 				
 			case 2:
 				
@@ -41,7 +42,7 @@ public class Principal {
 				num2 = Leer.datoDouble();
 				
 				result = num1 - num2;
-				System.out.printf("El resultado es: %.2f", result);
+				System.out.printf("%f - %f = %f \n", num1, num2, result);
 				
 				break;
 				
@@ -53,12 +54,15 @@ public class Principal {
 				num2 = Leer.datoDouble();
 				
 				result = num1 * num2;
-				System.out.printf("El resultado es: %.2f", result);
+				System.out.printf("%f * %f = %f \n", num1, num2, result);
 				
 				break;
 				
 			case 0:
+				
 				System.out.println("\n\nGracias por usar el programa.");
+				break;
+				
 			default:
 				
 				System.out.println("El número introducido es incorrecto.");
