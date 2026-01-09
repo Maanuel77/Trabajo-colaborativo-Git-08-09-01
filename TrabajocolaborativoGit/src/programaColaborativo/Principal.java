@@ -10,7 +10,7 @@ public class Principal {
 		int opcion;
 		double num1, num2, result;//Manuel
 		
-		System.out.println("Bienvenido, trabajo de Germán Díaz y Manuel Martínez");
+		System.out.println("Bienvenido, trabajo de Germán Díaz y Manuel Martínez\n");
 		
 		do {
 			
@@ -23,6 +23,15 @@ public class Principal {
 			switch (opcion) {
 			
 			case 1:
+				System.out.println("Introduce un número para sumar: ");
+				num1=Leer.datoDouble();
+				
+				System.out.println("Introduce otro número para sumarlo: ");
+				num2=Leer.datoDouble();
+				
+				result=num1+num2;
+				
+				System.out.printf("%f + %f = %f \n", num1, num2, result);
 				
 			case 2:
 				
@@ -49,8 +58,7 @@ public class Principal {
 				break;
 				
 			case 0:
-				
-				
+				System.out.println("\n\nGracias por usar el programa.");
 			default:
 				
 				System.out.println("El número introducido es incorrecto.");
